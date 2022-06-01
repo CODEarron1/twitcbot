@@ -193,11 +193,7 @@ class Follow(Twitch):
             logging.warning('Channel ID is null')
 def title():
     title= f'''{Fore.LIGHTRED_EX}
-\t\t▄▄▄▄▄▄▄▌ ▐ ▄▌▪  ▄▄▄▄▄ ▄▄·  ▄ .▄  ·▄▄▄      ▄▄▌  ▄▄▌        ▄▄▌ ▐ ▄▌  ▄▄▄▄·       ▄▄▄▄▄
-\t\t•██  ██· █▌▐███ •██  ▐█ ▌▪██▪▐█  ▐▄▄  ▄█▀▄ ██•  ██•   ▄█▀▄ ██· █▌▐█  ▐█ ▀█▪ ▄█▀▄ •██  
-\t\t ▐█.▪██▪▐█▐▐▌▐█· ▐█.▪██ ▄▄██▀▀█  █  ▪▐█▌.▐▌██ ▪ ██ ▪ ▐█▌.▐▌██▪▐█▐▐▌  ▐█▀▀█▄▐█▌.▐▌ ▐█.▪
-\t\t ▐█▌·▐█▌██▐█▌▐█▌ ▐█▌·▐███▌██▌▐▀  ██ .▐█▌.▐▌▐█▌ ▄▐█▌ ▄▐█▌.▐▌▐█▌██▐█▌  ██▄▪▐█▐█▌.▐▌ ▐█▌·
-\t\t ▀▀▀  ▀▀▀▀ ▀▪▀▀▀ ▀▀▀ ·▀▀▀ ▀▀▀ ·  ▀▀▀  ▀█▄▀▪.▀▀▀ .▀▀▀  ▀█▄▀▪ ▀▀▀▀ ▀▪  ·▀▀▀▀  ▀█▄▀▪ ▀▀▀ {Style.RESET_ALL}
+TWITCH BOT{Style.RESET_ALL}
         '''
     return title
 
@@ -240,7 +236,7 @@ def logic():
         print('Invalid Choice')
 
 def main():
-    os.system('title [Twitch Follow Bot] ^| NightfallGT')
+    os.system('title [Twitch bot] ^| ACODE.UK')
     clear()
     print(title())
     print(menu())
